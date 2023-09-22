@@ -90,7 +90,8 @@ namespace XamarinCalculadora
                     result = firstNumber / secondNumber;
                 }
 
-                this.resultText.Text = result.ToString();
+                //this.resultText.Text = result.ToString();
+                this.resultText.Text = result.ToString("N0");
                 firstNumber = result;
                 currentState = -1;
             }
