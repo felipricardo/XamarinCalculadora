@@ -64,5 +64,36 @@ namespace XamarinCalculadora
             string pressed = button.Text;
             mathOperator = pressed;
         }
+
+        void OnCalculate(object sender, EventArgs e)
+        {
+            if (currentState == 2)
+            {
+                Double result = 0;
+                if (mathOperator == "+")
+                {
+                    result = firstNumber + secondNumber;
+                }
+
+                if (mathOperator == "-")
+                {
+                    result = firstNumber - secondNumber;
+                }
+
+                if (mathOperator == "X")
+                {
+                    result = firstNumber * secondNumber;
+                }
+
+                if (mathOperator == "/")
+                {
+                    result = firstNumber / secondNumber;
+                }
+
+                this.resultText.Text = result.ToString();
+                firstNumber = result;
+                currentState = -1;
+            }
+        }
     }
 }
