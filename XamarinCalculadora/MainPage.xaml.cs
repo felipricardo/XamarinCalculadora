@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Diagnostics.Tracing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -54,6 +55,13 @@ namespace XamarinCalculadora
                     secondNumber = number;
                 }
             }
+        }
+        void OnSelecOperator(object sender, EventArgs e)
+        {
+            currentState = -2;
+            Button button = (Button)sender;
+            string pressed = button.Text;
+            mathOperator = pressed;
         }
     }
 }
