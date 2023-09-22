@@ -56,7 +56,8 @@ namespace XamarinCalculadora
                 }
             }
         }
-        void OnSelecOperator(object sender, EventArgs e)
+        
+        void OnSelectOperator(object sender, EventArgs e)
         {
             currentState = -2;
             Button button = (Button)sender;
