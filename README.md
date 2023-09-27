@@ -8,10 +8,6 @@ Funcionalidades
 - Interface de usuário amigável com botões numéricos e operadores.
 - Exibição clara do resultado em formato de número formatado.
 
-Capturas de tela
-
-Inclua algumas capturas de tela do aplicativo aqui, mostrando sua interface de usuário e como ele funciona.
-
 Como Usar
 
 1. Baixe e instale o aplicativo em seu dispositivo móvel com Xamarin.Forms.
