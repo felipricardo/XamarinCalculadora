@@ -2,6 +2,9 @@ Calculadora Xamarin
 
 Este é um aplicativo de calculadora simples desenvolvido em Xamarin.Forms. Ele permite que você realize operações matemáticas básicas, como adição, subtração, multiplicação e divisão, em números inteiros.
 
+![Imagem do App](https://i.pinimg.com/originals/e8/ee/55/e8ee55505873b548d8191de01f4c8f94.png) 
+
+
 Funcionalidades
 
 - Adição, subtração, multiplicação e divisão de números inteiros.
